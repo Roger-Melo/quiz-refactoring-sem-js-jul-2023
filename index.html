@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <title>Quiz | Você conseque acertar qual é o(a) autor(a) desses livros?</title>
+</head>
+<body>  
+  <div class="intro py-3 bg-info text-center">
+    <div class="container">
+      <h2 class="text-light display-3 my-4">Quiz</h2>
+    </div>
+  </div>
+
+  <div class="final-score-container py-4 d-none text-center">
+    <div class="container lead">
+      <p>Você acertou
+        <span class="score display-4 p-3">0%</span>
+        do quiz!</p>
+    </div>
+  </div>
+
+  <div class="quiz py-4 bg-secondary">
+    <div class="container">
+      <h2 class="my-5 text-white">Você conseque acertar qual é o(a) autor(a) desses livros?</h2>
+
+      <form class="quiz-form text-light">
+        <div class="my-5">
+          <p class="lead fw-bold">1. Dom Casmurro</p>
+          <div class="form-check my-2 text-white-60">
+            <label class="form-check-label fw-bold">
+              <input type="radio" name="inputQuestion1" value="A" checked>
+              Miguel de Cervantes
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-60">
+            <label class="form-check-label fw-bold">
+              <input type="radio" name="inputQuestion1" value="B">
+              Machado de Assis
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-60">
+            <label class="form-check-label fw-bold">
+              <input type="radio" name="inputQuestion1" value="C">
+              Fernando Pessoa
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-60">
+            <label class="form-check-label fw-bold">
+              <input type="radio" name="inputQuestion1" value="D">
+              Conceição Evaristo
+            </label>
+          </div>
+        </div>
+
+        <div class="my-5">
+          <p class="lead fw-bold">2. Grande Sertão: Veredas</p>
+          <div class="form-check my-2 text-white-60">
+            <label class="form-check-label fw-bold">
+              <input type="radio" name="inputQuestion2" value="A" checked>
+              João Guimarães Rosa
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-60">
+            <label class="form-check-label fw-bold">
+              <input type="radio" name="inputQuestion2" value="B">
+              Clarice Lispector
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-60">
+            <label class="form-check-label fw-bold">
+              <input type="radio" name="inputQuestion2" value="C">
+              Carlos Drummond de Andrade
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-60">
+            <label class="form-check-label fw-bold">
+              <input type="radio" name="inputQuestion2" value="D">
+              Milton Hatoum
+            </label>
+          </div>
+        </div>
+
+        <div class="my-5">
+          <p class="lead fw-bold">3. O Cortiço</p>
+          <div class="form-check my-2 text-white-60">
+            <label class="form-check-label fw-bold">
+              <input type="radio" name="inputQuestion3" value="A" checked>
+              Manuel Bandeira
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-60">
+            <label class="form-check-label fw-bold">
+              <input type="radio" name="inputQuestion3" value="B">
+              Cecília Meireles
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-60">
+            <label class="form-check-label fw-bold">
+              <input type="radio" name="inputQuestion3" value="C">
+              Aluísio Azevedo
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-60">
+            <label class="form-check-label fw-bold">
+              <input type="radio" name="inputQuestion3" value="D">
+              Érico Veríssimo
+            </label>
+          </div>
+        </div>
+
+        <div class="my-5">
+          <p class="lead fw-bold">4. Vidas Secas</p>
+          <div class="form-check my-2 text-white-60">
+            <label class="form-check-label fw-bold">
+              <input type="radio" name="inputQuestion4" value="A" checked>
+              Graciliano Ramos
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-60">
+            <label class="form-check-label fw-bold">
+              <input type="radio" name="inputQuestion4" value="B">
+              Lygia Fagundes Telles
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-60">
+            <label class="form-check-label fw-bold">
+              <input type="radio" name="inputQuestion4" value="C">
+              Rubem Fonseca
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-60">
+            <label class="form-check-label fw-bold">
+              <input type="radio" name="inputQuestion4" value="D">
+              Adriana Lisboa
+            </label>
+          </div>
+        </div>
+        
+        <div class="text-center">
+          <button class="btn bg-info text-light fw-bold">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
